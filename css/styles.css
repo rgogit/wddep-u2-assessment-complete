@@ -1,0 +1,37 @@
+/* Default & Mobile View */
+.body {
+    max-width:  1280px;
+    
+}
+
+main {
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width:  754px;
+}
+
+/* Tablet View */
+
+@media (min-width: 768px) {
+
+    main {
+    flex-direction: row;
+}  
+.card {
+    max-width: 362px;
+}  
+}
+
+
+/* Desktop View */
+
+@media (min-width: 1024px) {
+
+main {
+    max-width:  1014px;
+}    .card {
+    max-width: 321px;
+}	
+}
